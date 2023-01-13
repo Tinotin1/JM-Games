@@ -7483,7 +7483,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.minigameUrl='minigameGarden.js';
+		Game.last.minigameUrl='https://raw.githubusercontent.com/Tinotin1/JM-Games/main/cookie-clicker/minigameGarden.js';
 		Game.last.minigameName='Garden';
 		
 		new Game.Object('Mine','mine|mines|mined|[X] mile deeper|[X] miles deeper','Mines out cookie dough and chocolate chips.',4,3,{base:'mine',xV:16,yV:16,w:64,rows:2,x:0,y:24},10000,function(me){
@@ -7505,7 +7505,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		//Game.last.minigameUrl='minigameDungeon.js';//not yet
+		//Game.last.minigameUrl='https://raw.githubusercontent.com/Tinotin1/JM-Games/main/cookie-clicker/minigameDungeon.js';//not yet
 		//Game.last.minigameName='Dungeon';
 		
 		new Game.Object('Bank','bank|banks|banked|Interest rates [X]% better|Interest rates [X]% better','Generates cookies from interest.',6,15,{base:'bank',xV:8,yV:4,w:56,rows:1,x:0,y:13},0,function(me){
@@ -7527,7 +7527,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.minigameUrl='minigamePantheon.js';
+		Game.last.minigameUrl='https://raw.githubusercontent.com/Tinotin1/JM-Games/main/cookie-clicker/minigamePantheon.js';
 		Game.last.minigameName='Pantheon';
 		
 		new Game.Object('Wizard tower','wizard tower|wizard towers|summoned|Incantations have [X] more syllable|Incantations have [X] more syllables','Summons cookies with magic spells.',8,17,{base:'wizardtower',xV:16,yV:16,w:48,rows:2,x:0,y:20},0,function(me){
@@ -7539,7 +7539,7 @@ Game.Launch=function()
 			Game.UnlockTiered(this);
 			if (this.amount>=Game.SpecialGrandmaUnlock && Game.Objects['Grandma'].amount>0) Game.Unlock(this.grandma.name);
 		});
-		Game.last.minigameUrl='minigameGrimoire.js';
+		Game.last.minigameUrl='https://raw.githubusercontent.com/Tinotin1/JM-Games/main/cookie-clicker/minigameGrimoire.js';
 		Game.last.minigameName='Grimoire';
 		
 		new Game.Object('Shipment','shipment|shipments|shipped|[X] galaxy fully explored|[X] galaxies fully explored','Brings in fresh cookies from the cookie planet.',9,5,{base:'shipment',xV:16,yV:16,w:64,rows:1,x:0,y:0},40000,function(me){
